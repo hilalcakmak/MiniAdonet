@@ -1,0 +1,38 @@
+﻿@page
+@model MiniAdonet.Pages.Doktorlar.IndexModel
+
+<br />
+<h2>Doktorlar</h2>
+<a class="btn btn-primary btn-sm" href="/Doktorlar/Create">Doktor Ekle</a>
+<table class="table mt-3">
+    <thead class="table-light">
+        <tr>
+            <th>Doktor ID</th>
+            <th>Ad Soyad</th>
+            <th>Uzmanlık</th>
+            <th>Telefon</th>
+            <th>Email</th>
+            <th>Çalışma Saatleri</th>
+            <th>Eklenme Tarihi</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.DoktorListesi)
+        {
+            <tr>
+                <td>@item.DoktorID</td>
+                <td>@($"{item.Ad} {item.Soyad}")</td>
+                <td>@item.UzmanlikAlani</td>
+                <td>@item.Telefon</td>
+                <td>@item.Email</td>
+                <td>@($"{item.CalismaSaatiBaslangic:hh\\:mm} - {item.CalismaSaatiBitis:hh\\:mm}")</td>
+                <td>@item.EklenmeTarihi.ToString("g")</td>
+                <td>
+                    <a class="btn btn-warning btn-sm me-2" href="/Doktorlar/Edit?id=@item.DoktorID">Edit</a>
+                    <a class="btn btn-danger btn-sm" href="/Doktorlar/Delete?id=@item.DoktorID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
