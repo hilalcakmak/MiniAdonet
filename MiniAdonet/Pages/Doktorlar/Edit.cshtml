@@ -1,0 +1,60 @@
+﻿@page
+@model MiniAdonet.Pages.Doktorlar.EditModel
+@{
+}
+
+
+<form method="post">
+    <input type="hidden" name="DoktorID" value="@Model.DoktorBilgi.DoktorID" />
+    <div class="row mb-3">
+        <label for="Ad" class="col-sm-3 col-form-label">Ad</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" id="Ad" name="Ad" value="@Model.DoktorBilgi.Ad" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="Soyad" class="col-sm-3 col-form-label">Soyad</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" id="Soyad" name="Soyad" value="@Model.DoktorBilgi.Soyad" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="UzmanlikAlani" class="col-sm-3 col-form-label">Uzmanlık Alanı</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" id="UzmanlikAlani" name="UzmanlikAlani" value="@Model.DoktorBilgi.UzmanlikAlani" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="Telefon" class="col-sm-3 col-form-label">Telefon</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" id="Telefon" name="Telefon" value="@Model.DoktorBilgi.Telefon" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="Email" class="col-sm-3 col-form-label">Email</label>
+        <div class="col-sm-6">
+            <input type="email" class="form-control" id="Email" name="Email" value="@Model.DoktorBilgi.Email" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="CalismaSaatiBaslangic" class="col-sm-3 col-form-label">Çalışma Saati Başlangıç</label>
+        <div class="col-sm-3">
+            <input type="time" class="form-control" id="CalismaSaatiBaslangic" name="CalismaSaatiBaslangic"
+                   value="@(Model.DoktorBilgi.CalismaSaatiBaslangic != default ? Model.DoktorBilgi.CalismaSaatiBaslangic.ToString(@"hh\:mm") : "")" />
+        </div>
+        <label for="CalismaSaatiBitis" class="col-sm-3 col-form-label">Çalışma Saati Bitiş</label>
+        <div class="col-sm-3">
+            <input type="time" class="form-control" id="CalismaSaatiBitis" name="CalismaSaatiBitis"
+                   value="@(Model.DoktorBilgi.CalismaSaatiBitis != default ? Model.DoktorBilgi.CalismaSaatiBitis.ToString(@"hh\:mm") : "")" />
+        </div>
+
+    </div>
+    <div class="row mb-3">
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary">Kaydet</button>
+        </div>
+        <div class="col-sm-3 d-grid">
+            <a href="/Doktorlar/Index" class="btn btn-secondary">İptal</a>
+        </div>
+    </div>
+</form>

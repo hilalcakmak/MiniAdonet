@@ -1,0 +1,57 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MiniAdonet
+build_property.RootNamespace = MiniAdonet
+build_property.ProjectDir = /Users/a1-17/Desktop/MiniAdonet/MiniAdonet/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/a1-17/Desktop/MiniAdonet/MiniAdonet
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/a1-17/Desktop/MiniAdonet/MiniAdonet/MiniAdonet/Pages/Doktorlar/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWluaUFkb25ldC9QYWdlcy9Eb2t0b3JsYXIvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-17/Desktop/MiniAdonet/MiniAdonet/MiniAdonet/Pages/Doktorlar/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWluaUFkb25ldC9QYWdlcy9Eb2t0b3JsYXIvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-17/Desktop/MiniAdonet/MiniAdonet/MiniAdonet/Pages/Doktorlar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWluaUFkb25ldC9QYWdlcy9Eb2t0b3JsYXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-17/Desktop/MiniAdonet/MiniAdonet/MiniAdonet/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWluaUFkb25ldC9QYWdlcy9FcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-17/Desktop/MiniAdonet/MiniAdonet/MiniAdonet/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWluaUFkb25ldC9QYWdlcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-17/Desktop/MiniAdonet/MiniAdonet/MiniAdonet/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWluaUFkb25ldC9QYWdlcy9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-17/Desktop/MiniAdonet/MiniAdonet/MiniAdonet/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWluaUFkb25ldC9QYWdlcy9TaGFyZWQvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-17/Desktop/MiniAdonet/MiniAdonet/MiniAdonet/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWluaUFkb25ldC9QYWdlcy9fVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-17/Desktop/MiniAdonet/MiniAdonet/MiniAdonet/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWluaUFkb25ldC9QYWdlcy9fVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-17/Desktop/MiniAdonet/MiniAdonet/MiniAdonet/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWluaUFkb25ldC9QYWdlcy9TaGFyZWQvX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-dh6ketn6n6

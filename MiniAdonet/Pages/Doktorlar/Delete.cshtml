@@ -1,0 +1,30 @@
+﻿
+@page
+@using System.Data.SqlClient;
+@{
+
+    try
+    {
+        string ID = Request.Query["id"];
+        string connectionString = "Server=localhost; Database=SaglikDB; User Id=SA; Password=reallyStrongPwd123; TrustServerCertificate=True;";
+
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        {
+
+            connection.Open();
+            string sql = "delete from Doktorlar where DoktorID=@DoktorID";
+            using (SqlCommand command = new SqlCommand(sql, connection))
+            {
+                command.Parameters.AddWithValue("@DoktorID", ID);
+                command.ExecuteNonQuery();
+            }
+
+
+        }
+    }
+    catch (Exception ex)
+    {
+
+    }
+    Response.Redirect("/Doktorlar/Index");
+}
