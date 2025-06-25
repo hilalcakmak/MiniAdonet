@@ -1,5 +1,40 @@
 ﻿@page
 @model MiniAdonet.Pages.Hastalar.IndexModel
-@{
-}
 
+<br />
+<h2>Hastalar</h2>
+<a class="btn btn-primary btn-sm" href="/Hastalar/Create">Hasta Ekle</a>
+<table class="table mt-3">
+    <thead class="table-light">
+        <tr>
+            <th>Hasta ID</th>
+            <th>Ad Soyad</th>
+            <th>Doğum Tarihi</th>
+            <th>Cinsiyet</th>
+            <th>Telefon</th>
+            <th>Email</th>
+            <th>Adres</th>
+            <th>Kayıt Tarihi</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.HastaListesi)
+        {
+            <tr>
+                <td>@item.HastaID</td>
+                <td>@($"{item.Ad} {item.Soyad}")</td>
+                <td>@(item.DogumTarihi?.ToString("yyyy-MM-dd") ?? "-")</td>
+                <td>@(item.Cinsiyet ?? "-")</td>
+                <td>@(item.Telefon ?? "-")</td>
+                <td>@(item.Email ?? "-")</td>
+                <td>@(item.Adres ?? "-")</td>
+                <td>@item.KayitTarihi.ToString("g")</td>
+                <td>
+                    <a class="btn btn-warning btn-sm me-2" href="/Hastalar/Edit?id=@item.HastaID">Edit</a>
+                    <a class="btn btn-danger btn-sm" href="/Hastalar/Delete?id=@item.HastaID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

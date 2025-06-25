@@ -1,0 +1,72 @@
+﻿@page
+@model MiniAdonet.Pages.Hastalar.CreateModel
+@{
+}
+<br />
+<h2>Hasta Ekleme Ekranı</h2>
+
+@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>@Model.ErrorMessage</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+    </div>
+}
+
+<form method="post">
+    <div class="row mb-3">
+        <label for="Ad" class="col-sm-3 col-form-label">Ad</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" id="Ad" name="Ad" value="@Model.HastaBilgi.Ad" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="Soyad" class="col-sm-3 col-form-label">Soyad</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" id="Soyad" name="Soyad" value="@Model.HastaBilgi.Soyad" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="DogumTarihi" class="col-sm-3 col-form-label">Doğum Tarihi</label>
+        <div class="col-sm-6">
+            <input type="date" class="form-control" id="DogumTarihi" name="DogumTarihi" value="@(Model.HastaBilgi.DogumTarihi?.ToString("yyyy-MM-dd") ?? "")" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="Cinsiyet" class="col-sm-3 col-form-label">Cinsiyet</label>
+        <div class="col-sm-6">
+            <select class="form-control" id="Cinsiyet" name="Cinsiyet">
+                <option value="">Seçiniz</option>
+                <option value="K" >Kadın</option>
+                <option value="E" >Erkek</option>
+                <option value="D" >Diğer</option>
+            </select>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="Telefon" class="col-sm-3 col-form-label">Telefon</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" id="Telefon" name="Telefon" value="@Model.HastaBilgi.Telefon" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="Email" class="col-sm-3 col-form-label">Email</label>
+        <div class="col-sm-6">
+            <input type="email" class="form-control" id="Email" name="Email" value="@Model.HastaBilgi.Email" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="Adres" class="col-sm-3 col-form-label">Adres</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" id="Adres" name="Adres" value="@Model.HastaBilgi.Adres" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary">Kaydet</button>
+        </div>
+        <div class="col-sm-3 d-grid">
+            <a href="/Hastalar/Index" class="btn btn-secondary">İptal</a>
+        </div>
+    </div>
+</form>
