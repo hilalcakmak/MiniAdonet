@@ -17,6 +17,7 @@
     <Folder Include="Pages\Doktorlar\" />
     <Folder Include="Pages\Hastalar\" />
     <Folder Include="Pages\Randevular\" />
+    <Folder Include="Pages\Randevular\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />

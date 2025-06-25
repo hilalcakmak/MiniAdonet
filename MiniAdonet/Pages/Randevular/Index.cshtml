@@ -1,0 +1,38 @@
+﻿@page
+@model MiniAdonet.Pages.Randevular.IndexModel
+
+<br />
+<h2>Randevular</h2>
+<a class="btn btn-primary btn-sm" href="/Randevular/Create">Randevu Ekle</a>
+<table class="table mt-3">
+    <thead class="table-light">
+        <tr>
+            <th>Randevu ID</th>
+            <th>Doktor Ad Soyad</th>
+            <th>Hasta Ad Soyad</th>
+            <th>Randevu Tarihi</th>
+            <th>Durum</th> 
+            <th>Açıklama</th>
+            <th>Oluşturma Tarihi</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.RandevuListesi)
+        {
+            <tr>
+                <td>@item.RandevuID</td>
+                <td>@item.DoktorAdSoyad</td>
+                <td>@item.HastaAdSoyad</td>
+                <td>@item.RandevuTarihi.ToString("g")</td>
+                <td>@item.Durum</td>
+                <td>@(string.IsNullOrEmpty(item.Aciklama) ? "-" : item.Aciklama)</td>
+                <td>@item.OlusturmaTarihi.ToString("g")</td>
+                <td>
+                    <a class="btn btn-warning btn-sm me-2" href="/Randevular/Edit?id=@item.RandevuID">Edit</a>
+                    <a class="btn btn-danger btn-sm" href="/Randevular/Delete?id=@item.RandevuID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
