@@ -62,6 +62,8 @@ namespace MiniAdonet.Pages.Randevular
     public class Randevu
     {
         public int RandevuID { get; set; }
+        public int DoktorID { get; set; }       
+        public int HastaID { get; set; }      
         public string DoktorAdSoyad { get; set; }
         public string HastaAdSoyad { get; set; }
         public DateTime RandevuTarihi { get; set; }
@@ -69,4 +71,5 @@ namespace MiniAdonet.Pages.Randevular
         public string Aciklama { get; set; }
         public DateTime OlusturmaTarihi { get; set; }
     }
+
 }

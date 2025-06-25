@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "nmZ20UYKiHppkYI3UbL86Qe2Pxlf+3AGxmYGyWi+fU27b2FiJt4s4ecjtFgPJ1oGOFSghSePcJUSpWE9EvJ7Vg==",
+  "dgSpecHash": "oTsqRe7eyiTU+N8TpRbtikAXyQu4Of5yJ+r6EULqjtLOudJ3mdiKi3FgzRZBzCVXka9bER0X6zUkFfHUQj8pZw==",
   "success": true,
-  "projectFilePath": "/Users/hilalcakmak/Desktop/MiniAdonet/MiniAdonet/MiniAdonet.csproj",
+  "projectFilePath": "/Users/a1-17/Desktop/MiniAdonet/MiniAdonet/MiniAdonet.csproj",
   "expectedPackageFiles": [
-    "/Users/hilalcakmak/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.4.0/runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "/Users/hilalcakmak/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "/Users/hilalcakmak/.nuget/packages/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "/Users/hilalcakmak/.nuget/packages/runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "/Users/hilalcakmak/.nuget/packages/system.data.sqlclient/4.9.0/system.data.sqlclient.4.9.0.nupkg.sha512"
+    "/Users/a1-17/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.4.0/runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/Users/a1-17/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/Users/a1-17/.nuget/packages/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/Users/a1-17/.nuget/packages/runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/Users/a1-17/.nuget/packages/system.data.sqlclient/4.9.0/system.data.sqlclient.4.9.0.nupkg.sha512"
   ],
   "logs": []
 }

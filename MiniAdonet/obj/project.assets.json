@@ -172,25 +172,24 @@
     ]
   },
   "packageFolders": {
-    "/Users/hilalcakmak/.nuget/packages/": {}
+    "/Users/a1-17/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hilalcakmak/Desktop/MiniAdonet/MiniAdonet/MiniAdonet.csproj",
+      "projectUniqueName": "/Users/a1-17/Desktop/MiniAdonet/MiniAdonet/MiniAdonet.csproj",
       "projectName": "MiniAdonet",
-      "projectPath": "/Users/hilalcakmak/Desktop/MiniAdonet/MiniAdonet/MiniAdonet.csproj",
-      "packagesPath": "/Users/hilalcakmak/.nuget/packages/",
-      "outputPath": "/Users/hilalcakmak/Desktop/MiniAdonet/MiniAdonet/obj/",
+      "projectPath": "/Users/a1-17/Desktop/MiniAdonet/MiniAdonet/MiniAdonet.csproj",
+      "packagesPath": "/Users/a1-17/.nuget/packages/",
+      "outputPath": "/Users/a1-17/Desktop/MiniAdonet/MiniAdonet/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/hilalcakmak/.nuget/NuGet/NuGet.Config"
+        "/Users/a1-17/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
         "/usr/local/share/dotnet/sdk/7.0.317/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
