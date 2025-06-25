@@ -57,13 +57,13 @@ namespace MiniAdonet.Pages.Hastalar
             }
             catch (Exception ex)
             {
-                // Hata yönetimi: loglama veya kullanıcıya bildirme ekleyebilirsin
+               
                 Console.Error.WriteLine(ex.Message);
             }
         }
     }
 
-    // Tabloya karşılık gelen model sınıfı (tekil isimle)
+    // Tabloya karşılık gelen model sınıfı 
     public class Hasta
     {
         public int HastaID { get; set; }

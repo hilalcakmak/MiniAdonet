@@ -33,7 +33,7 @@ namespace MiniAdonet.Pages.Hastalar
             HastaBilgi.Email = Request.Form["Email"].ToString();
             HastaBilgi.Adres = Request.Form["Adres"].ToString();
 
-            // En az zorunlu alanlar kontrolü (Ad, Soyad)
+            // zorunlu alanlar kontrolü (Ad, Soyad)
             if (string.IsNullOrWhiteSpace(HastaBilgi.Ad) || string.IsNullOrWhiteSpace(HastaBilgi.Soyad))
             {
                 ErrorMessage = "Ad ve Soyad alanları zorunludur!";
@@ -69,7 +69,7 @@ namespace MiniAdonet.Pages.Hastalar
                 return Page();
             }
 
-            // Formu temizle (isteğe bağlı)
+            // Formu temizle
             HastaBilgi.Ad = "";
             HastaBilgi.Soyad = "";
             HastaBilgi.DogumTarihi = null;
