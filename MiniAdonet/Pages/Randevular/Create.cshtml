@@ -1,0 +1,60 @@
+﻿@page
+@model MiniAdonet.Pages.Randevular.CreateModel
+@{
+}
+<br />
+<h2>Randevu Ekleme Ekranı</h2>
+
+@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>@Model.ErrorMessage</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+    </div>
+}
+
+<form method="post">
+    <div class="row mb-3">
+        <label for="DoktorID" class="col-sm-3 col-form-label">Doktor ID</label>
+        <div class="col-sm-6">
+            <input type="number" class="form-control" id="DoktorID" name="DoktorID"
+                   value="@(Model.RandevuBilgi.DoktorAdSoyad)" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="HastaID" class="col-sm-3 col-form-label">Hasta ID</label>
+        <div class="col-sm-6">
+            <input type="number" class="form-control" id="HastaID" name="HastaID"
+                   value="@(Model.RandevuBilgi.HastaAdSoyad)" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="RandevuTarihi" class="col-sm-3 col-form-label">Randevu Tarihi</label>
+        <div class="col-sm-6">
+            <input type="datetime-local" class="form-control" id="RandevuTarihi" name="RandevuTarihi"
+                   value="@(Model.RandevuBilgi.RandevuTarihi.ToString("yyyy-MM-ddTHH:mm"))" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="Durum" class="col-sm-3 col-form-label">Durum</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" id="Durum" name="Durum"
+                   value="@(Model.RandevuBilgi.Durum ?? "Beklemede")" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="Aciklama" class="col-sm-3 col-form-label">Açıklama</label>
+        <div class="col-sm-6">
+            <textarea class="form-control" id="Aciklama" name="Aciklama" rows="3">
+@Model.RandevuBilgi.Aciklama</textarea>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary">Kaydet</button>
+        </div>
+        <div class="col-sm-3 d-grid">
+            <a href="/Randevular/Index" class="btn btn-secondary">İptal</a>
+        </div>
+    </div>
+</form>
