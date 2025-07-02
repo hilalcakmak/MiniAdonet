@@ -12,7 +12,7 @@ namespace MiniAdonet.Pages.Doktorlar
 
         public void OnGet()
         {
-            var connectionString = "Server=localhost; Database=SaglikDB; User Id=SA; Password=reallyStrongPwd123; TrustServerCertificate=True;";
+            var connectionString = "Server=localhost; Database=SaglikDB; User Id=SA; Password=reallyStrongPwd123.; TrustServerCertificate=True;";
 
             try
             {

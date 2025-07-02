@@ -1,44 +1,46 @@
 ﻿<Properties StartupConfiguration="{C5FCD6D3-3A6D-4DAD-B3CE-B759EA5021D1}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.MiniAdonet PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MiniAdonet/Pages/Randevular/Create.cshtml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MiniAdonet/Pages/Randevular/Index.cshtml.cs">
     <Files>
       <File FileName="MiniAdonet/Pages/Randevular/Index.cshtml" />
-      <File FileName="MiniAdonet/Pages/Randevular/Index.cshtml.cs" Line="1" Column="1" />
+      <File FileName="MiniAdonet/Pages/Randevular/Index.cshtml.cs" Line="54" Column="14" />
       <File FileName="MiniAdonet/Pages/Doktorlar/Create.cshtml.cs" />
       <File FileName="MiniAdonet/Pages/Doktorlar/Create.cshtml" />
-      <File FileName="../../../../usr/local/share/dotnet/sdk/7.0.317/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" />
       <File FileName="MiniAdonet/Pages/Doktorlar/Index.cshtml.cs" />
-      <File FileName="MiniAdonet/Pages/Randevular/Create.cshtml.cs" Line="73" Column="2" />
-      <File FileName="MiniAdonet/Pages/Randevular/Create.cshtml" Line="34" Column="36" />
+      <File FileName="MiniAdonet/Pages/Randevular/Create.cshtml.cs" />
+      <File FileName="MiniAdonet/Pages/Randevular/Create.cshtml" />
       <File FileName="MiniAdonet/Pages/Index.cshtml.cs" />
       <File FileName="MiniAdonet/Pages/Index.cshtml" />
+      <File FileName="MiniAdonet/appsettings.json" />
+      <File FileName="MiniAdonet/Pages/_ViewImports.cshtml" />
+      <File FileName="MiniAdonet/Pages/_ViewStart.cshtml" />
+      <File FileName="MiniAdonet/Pages/Error.cshtml" />
+      <File FileName="MiniAdonet/Pages/Privacy.cshtml" />
+      <File FileName="MiniAdonet/Pages/Shared/_Layout.cshtml" />
+      <File FileName="MiniAdonet/Pages/Doktorlar/Delete.cshtml" />
+      <File FileName="MiniAdonet/Pages/Doktorlar/Edit.cshtml" />
+      <File FileName="MiniAdonet/Pages/Doktorlar/Index.cshtml" />
+      <File FileName="MiniAdonet/Pages/Hastalar/Edit.cshtml" />
+      <File FileName="MiniAdonet/Pages/Hastalar/Delete.cshtml" />
+      <File FileName="MiniAdonet/Pages/Hastalar/Create.cshtml" />
+      <File FileName="MiniAdonet/Pages/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="MiniAdonet/Pages/Hastalar/Delete.cshtml.cs" />
+      <File FileName="MiniAdonet/Pages/Hastalar/Edit.cshtml.cs" />
+      <File FileName="MiniAdonet/Pages/Hastalar/Index.cshtml" />
+      <File FileName="MiniAdonet/Pages/Hastalar/Index.cshtml.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MiniAdonet">
-            <Node name="MiniAdonet">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
-              <Node name="Pages">
-                <Node name="Doktorlar" expanded="True">
-                  <Node name="Create.cshtml" expanded="True" />
-                  <Node name="Index.cshtml" expanded="True" />
-                </Node>
-                <Node name="Hastalar" expanded="True" />
+          <Node name="MiniAdonet" expanded="True">
+            <Node name="MiniAdonet" expanded="True">
+              <Node name="Pages" expanded="True">
                 <Node name="Randevular" expanded="True">
-                  <Node name="Create.cshtml" expanded="True">
-                    <Node name="Create.cshtml.cs" selected="True" />
+                  <Node name="Index.cshtml" expanded="True">
+                    <Node name="Index.cshtml.cs" selected="True" />
                   </Node>
-                  <Node name="Index.cshtml" expanded="True" />
                 </Node>
-                <Node name="Index.cshtml" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -47,4 +49,8 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
